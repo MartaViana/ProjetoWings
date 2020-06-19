@@ -1,0 +1,1002 @@
+
+body {
+    font-family: Abel;
+}
+
+/*/////////////////////////////PAGINA PRINCIPAL////////////////////////*/
+
+.menu {
+    width: 80%;
+    float: right;
+    position: relative;
+
+}
+
+header {
+    top: 0;
+    margin-top: 0;
+    background-color: white;
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo {
+    font-family: "Raleway";
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    left: 10%;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+
+}
+
+.logo a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.packs {
+    z-index: 0;
+}
+
+header ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+
+}
+
+header li {
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+    width: 200px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.ferias {
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+
+}
+
+.ferias .slide img{
+    object-fit: cover;
+
+}
+
+.ferias .titulo {
+    padding-top: 100px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: inherit;
+    margin-bottom: 40px;
+
+}
+
+.ferias a:hover {
+    text-decoration: underline;
+
+}
+
+.packs .expacks1 {
+    position: relative;
+    width: calc(90% / 4);
+    margin: calc(10% / 8);
+    float: left;
+
+}
+
+
+.packs .expacks2 {
+    position: relative;
+    width: calc(90% / 4);
+    margin: calc(10% / 8);
+    float: left;
+
+}
+
+.packs {
+    height: 350px;
+    width: 100%;
+}
+
+.packs .titulo a {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.expacks1 {
+    height: 250px;
+}
+
+.expacks2 {
+    height: 250px;
+}
+
+.expacks2 img {
+    width: 100%;
+    float: left;
+    top: 10px;
+    position: relative;
+
+}
+
+.expacks1 .subtitulo {
+    width: 100%;
+    float: left;
+
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-left: 5%;
+}
+
+.expacks1 .descriçao {
+    float: left;
+
+    padding: 20px;
+    width: 100%;
+
+}
+
+.destinos {
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    width: 95%;
+    height: 420px;
+    margin-left: 2.5%;
+
+}
+
+.africa, .american, .americas, .australia, .europa, .asia {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    float: left;
+    width: calc(100% / 6);
+
+}
+
+.africa {
+    background-image: url("../imagens/africa.jpeg");
+
+}
+
+.american {
+    background-image: url("../imagens/american.jpg");
+}
+
+.americas {
+    background-image: url("../imagens/americas.jpg");
+}
+
+.australia {
+    background-image: url("../imagens/australia.jpg");
+}
+
+.asia {
+    background-image: url("../imagens/asia.jpg");
+}
+
+.europa {
+    background-image: url("../imagens/europa.jpg");
+}
+
+.destinos .cont {
+    margin-top: 265px;
+    color: white;
+    text-align: center;
+
+}
+
+/*/////////////////////////////SOBRE////////////////////////*/
+
+.sobre {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+
+}
+
+.sobre .texto {
+    padding: 0 10%;
+    text-align: center;
+}
+
+.info {
+    padding: 60px 220px;
+    height: 400px;
+    background-image: url("http://onebigphoto.com/uploads/2014/09/taking-your-dog-out-for-a-hike.jpg");
+    background-size: cover;
+
+}
+
+.text {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.info .contac {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+.voltar {
+    margin-left: 50px;
+
+}
+
+.voltar :hover {
+    font-weight: bold;
+}
+
+
+.equipa {
+    width: calc(100% / 2);
+    position: relative;
+    float: left;
+}
+
+.lista {
+    width: 50%;
+    list-style-type: none;
+    float: left;
+    position: relative;
+
+}
+
+.imagemE {
+    float: left;
+    position: relative;
+    margin-left:8%;
+    margin-bottom: 30px;
+
+}
+
+
+/*/////////////////////////////PACKS////////////////////////*/
+
+body .categorias {
+    float: left;
+    position: relative;
+    top: 120px;
+    left: 5%;
+    width: 20%;
+    height: 300px;
+
+}
+
+.categorias ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 40px;
+    font-size: 20px;
+
+}
+
+.categorias li {
+    font-size: 20px;
+    padding: 35px;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.categorias li a {
+    text-decoration: none;
+    color: black;
+}
+
+.categorias li a:hover {
+    text-decoration: underline;
+}
+
+.lpacks {
+    float: right;
+    width: 65%;
+    right: 5%;
+    top: 120px;
+    position: relative;
+}
+
+.esq {
+    float: left;
+    width: 50%;
+}
+
+.dir {
+    width: 50%;
+    float: right;
+}
+
+.lpacks p {
+    padding: 0 15%;
+}
+
+.lpack img {
+    width: 80%;
+}
+
+/*/////////////////////////////TIPOS////////////////////////*/
+
+.dest {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.Ldestinos {
+    float: right;
+    width: 70%;
+    height: 900px;
+    top: 120px;
+    position: relative;
+}
+
+.Ldestinos .text {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.Ldestinos img {
+    width: 35%;
+    float: right;
+    margin-right: calc(15% / 2);
+}
+
+.Ldestinos .titulo2 {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.continentes li {
+    position: relative;
+    left: 60px;
+    height: 400px;
+    width: calc(100% / 7);
+}
+
+/*/////////////////////////////EUROPA////////////////////////*/
+
+.infoeuropa {
+    text-align: center;
+    width: 90%;
+    height: 600px;
+    margin-left: 5%;
+    top: 120px;
+    position: relative;
+}
+
+.infoeuropa .text {
+    font-size: 20px;
+}
+
+.infoeuropa .titulo1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.infor {
+    width: 50%;
+
+    float: left;
+}
+
+.infoeuropa .text2 {
+    font-size: 15px;
+}
+
+.infoeuropa .titulo2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.infoeuropa img {
+    float: right;
+    width: 40%;
+
+}
+
+.leuropa {
+    height: 300px;
+}
+
+.leuropa {
+    margin-top: 50px;
+
+}
+
+/*/////////////////////////////DESTINOS////////////////////////*/
+.continents .video {
+    position: relative;
+    text-align: center;
+    width: calc(90% / 3);
+    margin: calc(10% / 6);
+    float: left;
+
+}
+
+.continents {
+    top: 100px;
+    position: relative;
+}
+
+.video video {
+    top: 10px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.video .titulo {
+    margin: 0;
+    padding: 0;
+}
+
+/*/////////////////////////////TELEMOVEL////////////////////////*/
+
+@media screen  and (max-width: 600px) {
+
+    .leuropa img {
+        width: 70%;
+        margin-left: calc(30% / 2);
+        margin-right: calc(30% / 2);
+    }
+
+    .infor {
+        width: 100%;
+    }
+
+    .continents .video iframe {
+        width: 90%;
+    }
+
+    .lpacks img {
+        width: 70%;
+        margin-left: calc(30% / 2);
+        margin-right: calc(30% / 2);
+    }
+
+    .lpacks .p {
+        width: 100%;
+    }
+
+    .leuropa .titulo2 {
+        width: 100%;
+    }
+
+    .categorias {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .info {
+        padding: 0;
+        margin: 0;
+    }
+
+    .info {
+        height: 550px;
+    }
+
+    .info .titulo {
+        padding-top: 100px;
+
+    }
+
+    .ferias .titulo {
+        padding-top: 150px;
+    }
+
+    .dir {
+        float: right;
+
+    }
+
+    .destinos {
+        width: 100%;
+        height: 900px;
+    }
+
+    .africa, .american, .americas, .australia, .europa, .asia {
+        width: calc(100% / 2);
+
+    }
+
+    .Ldestinos {
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .imgtipos {
+        width: 100%;
+    }
+
+    .texttipos {
+        width: 100%;
+
+    }
+
+    .Ldestinos .text {
+        padding-top: 20px;
+        width: 100%;
+        margin-left: 0;
+        position: static;
+
+    }
+
+    .Ldestinos img {
+        position: static;
+        margin-bottom: 10px;
+        float: left;
+        width: 100%;
+    }
+
+    .Ldestinos .titulo2 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    body .categorias {
+        width: 100%;
+        height: 250px;
+
+    }
+
+    .categorias ul {
+        padding-top: 10px;
+        font-size: 20px;
+
+    }
+
+    .categorias li {
+        padding: 10px;
+
+    }
+
+    .lpacks {
+        width: 100%;
+        top: 120px;
+        position: relative;
+    }
+
+    .esq {
+        width: 100%;
+    }
+
+    .dir {
+        width: 100%;
+    }
+
+    .lpack img {
+        width: 100%;
+    }
+
+    .expacks1 .subtitulo {
+        margin-top: 0;
+        width: 90%;
+
+    }
+
+    .expacks1 .descriçao {
+        width: 90%;
+
+    }
+
+    .packs {
+        height: 820px;
+    }
+
+    .packs .expacks1 {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0;
+        float: left;
+        height: 100px;
+
+    }
+
+    .packs .expacks2 {
+        width: 90%;
+        margin-top: 0;
+        float: left;
+        height: 250px;
+
+    }
+
+    .packs img {
+        width: 300px;
+
+    }
+
+    .continents .video {
+        width: 90%;
+        margin: calc(10% / 3);
+
+    }
+
+    .equipa {
+        width: 100%;
+
+    }
+
+    .menuButton>div {
+        visibility: visible;
+    }
+
+    nav.navigation {
+        visibility: hidden;
+    }
+
+    .logo {
+        left: 40%;
+    }
+
+    header{
+        height: 90px;
+    }
+
+    .destinos {
+        margin:0;
+
+    }
+}
+
+/*/////////////////////////////TABLET////////////////////////*/
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .destinos {
+        width: 100%;
+        height: 600px;
+
+    }
+
+    .africa, .american, .americas, .australia, .europa, .asia {
+        width: calc(100% / 3);
+
+    }
+
+    .info {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+        width: 80%;
+        margin-left: calc(20% / 2);
+        margin-right: calc(20% / 2);
+    }
+
+    .info {
+        height: 500px;
+    }
+
+    .info .titulo {
+        padding-top: 100px;
+
+    }
+
+    .continents .video {
+        width: calc(90% / 2);
+        margin: calc(10% / 4);
+    }
+
+    body .categorias {
+        width: 100%;
+        height: 250px;
+
+    }
+
+    .categorias ul {
+        padding-top: 10px;
+        font-size: 20px;
+
+    }
+
+    .categorias li {
+        padding: 10px;
+
+    }
+
+    .lpacks {
+        width: 100%;
+        top: 120px;
+        position: relative;
+    }
+
+    .esq {
+        float: left;
+        width: 50%;
+    }
+
+    .dir {
+        width: 50%;
+        float: right;
+    }
+
+    .lpack img {
+        float: left;
+        width: 50%;
+    }
+
+    .Ldestinos {
+        width: 100%;
+    }
+
+    .Ldestinos img {
+        width: 35%;
+        position: static;
+
+    }
+
+    .Ldestinos .text {
+        float: left;
+        width: 50%;
+        margin-left: 0;
+        position: relative;
+
+    }
+
+    .Ldestinos .titulo2 {
+        width: 50%;
+        float: left;
+        padding: 0;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .packs {
+        height: 600px;
+    }
+
+    .packs .expacks1 {
+        width: calc(90% / 2);
+        margin-left: 5%;
+        margin-top: 0;
+        float: left;
+        height: 100px;
+
+    }
+
+    .packs .expacks2 {
+        width: calc(90% / 2);
+        margin-top: 0;
+        float: left;
+        height: 250px;
+
+    }
+
+    .packs img {
+        width: 300px;
+
+    }
+
+    .continents .video {
+        width: calc(90% / 2);
+        margin: calc(10% / 4);
+
+    }
+
+    .equipa {
+        width: 100%;
+
+    }
+
+
+    .menuButton>div {
+        visibility: visible;
+    }
+
+    nav.navigation {
+        visibility: hidden;
+    }
+
+    .logo {
+        left: 40%;
+        top:20px;
+    }
+    .destinos {
+        margin:0;
+
+    }
+}
+
+/*/////////////////////Dropdown///////////////////////////////*/
+
+.dropbtn {
+    border: none;
+    font-size: 20px;
+    display: inline-block;
+    width: 200px;
+    background: none;
+    font-family: Abel;
+}
+.dropbtn:hover, .dropbtn:focus {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+/*/////////////////////overlayImagens///////////////////////////////*/
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(176, 224, 230, 0.5);
+}
+
+.africa:hover .overlay, .asia:hover .overlay, .americas:hover .overlay, .american:hover .overlay, .europa:hover .overlay, .australia:hover .overlay {
+    opacity: 1;
+}
+
+
+/*//////////////////////SlideImagens//////////////////////////////*/
+
+.mySlides {display:none;}
+
+
+.slide{
+    width: 100%;
+    height: 100%;
+}
+
+.slide img{
+    width: auto;
+    height: 100%;
+}
+
+/*//////////////////TypewriterEffect//////////////////////////////////*/
+
+#demo {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+    left: 8%;
+}
+
+
+/*//////////////////MenuLateral//////////////////////////////////*/
+
+.lateral {
+    position: absolute;
+    width:200px;
+    height:150px;
+    top:0px;
+    left: -200px;
+    background-color: white;
+    opacity: 0.9;
+    transition: left 1s;
+    z-index: -1;
+    padding-top: 100px;
+}
+
+.lateral.show {
+    display: inline-block;
+    left: 0px;
+    text-decoration: underline;
+}
+
+.lateral ul {
+    padding: 0;
+}
+
+.menuButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    visibility: hidden;
+    top: 30px;
+    left: 5%;
+
+}
+
+.menuButton>div{
+    height: 5px;
+    width: 100%;
+    margin-bottom:10px;
+    background-color: black;
+
+}
+
+
+
+.contact{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-left: 20%;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
